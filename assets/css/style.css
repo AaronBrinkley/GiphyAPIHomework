@@ -1,0 +1,39 @@
+form {
+	margin-top: 30px;
+	float: right;
+}
+
+#buttonField {
+	margin-top: 30px;
+	float: left;
+}
+
+.gifRating {
+	margin: 50px;
+	position: relative;
+	
+
+	
+}
+
+.gifPic {
+	margin: 50px;
+	position: relative;
+	height: 200px;
+	width: 200px;
+}
+
+#gifField {
+	margin-top: 80px;
+	overflow: hidden;
+}
+
+.ratingSpan {
+	
+
+}
+
+/*
+	Had trouble styling the rating to go beneath the gif
+*/
+
