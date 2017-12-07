@@ -56,7 +56,7 @@ makeButtons()
        event.preventDefault();
 
         var topicUrl = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + topicUrl + "&api_key=jJhXjIruQRUjwtKKCvYrkXotrqxnccuL&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topicUrl + "&api_key=jJhXjIruQRUjwtKKCvYrkXotrqxnccuL&limit=10";
 
         
         $.ajax({
@@ -93,7 +93,7 @@ makeButtons()
           	//For the rating
 
 
-         
+
 
 
           var ratingGet = response.data[i].rating
